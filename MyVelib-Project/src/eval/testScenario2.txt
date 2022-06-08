@@ -1,0 +1,11 @@
+setup CentraleNetwork
+addUser taha Vlibre CentraleNetwork
+addUser soukaina none CentraleNetwork
+online CentraleNetwork 1
+rentBike 0 1
+rentBike 1 1
+returnBike 1 5 180
+displayUser CentraleNetwork 1 
+returnBike 0 5 120
+displayUser CentraleNetwork 1
+display CentraleNetwork

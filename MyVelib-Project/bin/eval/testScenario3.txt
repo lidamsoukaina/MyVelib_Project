@@ -1,0 +1,6 @@
+setup CentraleNetwork
+addUser taha Vlibre CentraleNetwork
+addUser soukaina none CentraleNetwork
+display CentraleNetwork
+sortStation CentraleNetwork LeastOccupied
+display CentraleNetwork
