@@ -1,13 +1,33 @@
 # MyVelib-Project
 
 This project is my attempt to model a bike sharing system using a JAVA framework.\
-To have a full understanding of this project initial requirements please check the following [file](project-description.pdf)
+To have a full understanding of this project initial requirements please check the following [file](ProjectDescription.pdf)
 
 To realize this project I decided to follow mainly a "waterfall" approach (Design > Implementation > Test > Debug).\
 You can look into the UML model for this project [here](https://drive.google.com/file/d/1q-TxoB0rqAr499ppoq3I8OMpADKcnXM9/view?usp=sharing).
-
+## Project Structure
+ This Java project has the following structure:
+ 
+```
+├── ...
+├── MyVelib-Project                  
+│   ├── doc                      # this folder contains the javadoc generated documentation for the entire project
+│   └── src                   
+│      ├── core               
+│      |   ├── CLUI              # this folder contains classes responsible for the commands described latter
+│      |   ├── classes           # this folder contains the main classe
+│      |   ├── enumerations      # this folder contains all the enumerations used in this project
+│      |   ├── interfaces        # this folder contains the interfaces
+│      |   └── test              # this folder contains unit tests for the main classes
+│      ├── eval                 
+│      |   ├── myVelib.ini.txt   # this file contains the command runned by default when running this project
+│      |   └── testScenarioN.txt # this kind of file is used to run test scenarios (list of the commands)
+|      └── model
+├── ProjectDescription.pdf       # Project requirement and description
+└── README.md               
+```
 ## How to test this project
-To test this project please run the java class file **MainCommand.java** of the package **core.CLUI.RUN**.
+To test this project please run the java class file **MainCommand.java** that you can find [here](MyVelib-Project/src/core/CLUI/RUN/MainCommand.java).
 
 Once you run it, in the console, you will receive a number of messages stating first that the system is populated with the network defined in myVelib.ini.text file and asking you to enter you command.
 
