@@ -1,4 +1,4 @@
-# MyVelib-Project
+# Bike Sharing System Modeling
 
 This project is my attempt to model a bike sharing system using a JAVA framework.\
 To have a full understanding of this project initial requirements please check the following [file](ProjectDescription.pdf)
